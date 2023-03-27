@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>21stCentury</title>
+    </head>
+      <body>
+        <h1 id="title">21st100Network Survey Form</h1>
+        <p id="description">Help us improve our services by taking this survey</p>
+        <form method="post" action="https://21st100N.com" id="survey-form">
+        <fieldset>
+          <label for="name" id="name-label">Name: <input type="text" id="name" name="name" placeholder="Enter Your Name" required/></label>
+          <label for="email" id="email-label">Email: <input type="email" id="email" name="email" placeholder="Enter Your Email" required/></label>
+          <label for="age" id="number-label">Age: (optional) <input type="number" id="number" min="10" max="100" placeholder="Age" /></label>
+          <label>Which option best describe your current role?
+            <select id="dropdown">
+              <option value="">select current role</option>
+              <option value="1">Student</option>
+              <option value="2">Employed</option>
+              <option value="3">Full time learner</option>
+              <option value="4">Part time learner</option>
+              <option value="5">Prefer not to say</option>
+            </select>
+          </label>
+          <label>would you recommend 21st100Network to your friends?</label>
+          <label for="definitely"> <input type="radio" class="inline" id="definitely" value="definitely" name="referral"/>Definitely</label>
+          <label for="maybe"> <input type="radio" class="inline" id="maybe" value="maybe" name="referral"/>Maybe</label>
+          <label for="not-sure"> <input type="radio" class="inline" id="not-sure" value="not-sure" name="referral"/>Not sure</label>
+          <label>What is your favorite feature of 21st100Network
+            <select>
+              <option value="">Select an option</option>
+              <option value="1">Signals</option>
+              <option value="2">Presentations</option>
+              <option value="3">Lectures</option>
+              <option value="4">Giveaways</option>
+            </select>
+          </label>
+          <label>What would you like to see us improve? (select all that apply)<label>
+          <label> <input type="checkbox" class="inline" value="class-hours">Class hours</label>
+          <label> <input type="checkbox" class="inline" value="signals"/>Signals</label>
+          <label> <input type="checkbox" class="inline" value="projects"/>Projects<label>
+          <label> <input type="checkbox" class="inline" value="crypto-lectures"/>Crypto Lectures</label>
+          <label> <input type="checkbox" class="inline" value="forex-lectures"/>Forex Lectures</label>
+          <label> <input type="checkbox" class="inline" value="timming"/>Timming<label>
+          <label> <input type="checkbox" class="inline" value="forums"/>Forums</label>
+          <label> <input type="checkbox" class="inline" value="meetups"/>Meetups</label> 
+          <label> <input type="checkbox" class="inline" value="customer-service"/>Customer Service</label>
+          <label> <input type="checkbox" class="inline" value="additional-courses"/>Additional Courses</label>
+          <label> <input type="checkbox" class="inline" value="videos"/>Videos</label>             
+          <label>Any Comments or Sggestions? 
+            <textarea placeholder="enter your comments or suggestions" col="10" rows="5"></textarea>
+          </label>
+        </fieldset>
+        <input id="submit" type="Submit" value="submit"/>
+
+          </form>
+         </body>
+        </html>
